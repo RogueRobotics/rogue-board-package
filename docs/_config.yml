@@ -1,0 +1,10 @@
+# Site settings
+title: Rogue Robotics - Arduino Additional Boards Package
+tag_text:
+description: Additional Boards Manager package for Rogue Robotics boards.
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed

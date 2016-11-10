@@ -1,0 +1,113 @@
+# Arduino Compatible Hardware Definition
+# for Rogue Robotics boards.
+#
+# Author: Brett Hagman <bhagman@wiring.org.co>
+###########################################
+
+# Rogue Robotics LEDHead (Atmel ATmega644PA based)
+# Uses "wiring" protocol (i.e. stk500v2 based WiringBoot)
+# http://roguerobotics.com/
+
+LEDHead-16MHz.name=Rogue Robotics LEDHead
+
+LEDHead-16MHz.upload.tool=arduino:avrdude
+LEDHead-16MHz.upload.protocol=wiring
+LEDHead-16MHz.upload.maximum_size=63488
+LEDHead-16MHz.upload.maximum_data_size=4096
+LEDHead-16MHz.upload.speed=115200
+
+LEDHead-16MHz.build.mcu=atmega644p
+LEDHead-16MHz.build.f_cpu=16000000L
+LEDHead-16MHz.build.board=AVR_ROGUEROBOTICS_LEDHEAD
+LEDHead-16MHz.build.core=arduino:arduino
+LEDHead-16MHz.build.variant=ATmega644P-to-ATmega328PA-Arduino
+
+LEDHead-16MHz.bootloader.tool=avrdude
+LEDHead-16MHz.bootloader.low_fuses=0xf7
+LEDHead-16MHz.bootloader.high_fuses=0xd4
+LEDHead-16MHz.bootloader.extended_fuses=0xfd
+LEDHead-16MHz.bootloader.file=LEDHead/WiringBoot_LEDHead.hex
+LEDHead-16MHz.bootloader.unlock_bits=0x3f
+LEDHead-16MHz.bootloader.lock_bits=0x2f
+
+
+# Rogue Robotics rEDI (Atmel ATmega644PA based)
+# Uses "wiring" protocol (i.e. stk500v2 based WiringBoot)
+# http://roguerobotics.com/
+
+rEDI-16MHz.name=Rogue Robotics rEDI
+
+rEDI-16MHz.upload.tool=avrdude
+rEDI-16MHz.upload.protocol=wiring
+rEDI-16MHz.upload.maximum_size=63488
+rEDI-16MHz.upload.maximum_data_size=4096
+rEDI-16MHz.upload.speed=115200
+
+rEDI-16MHz.build.mcu=atmega644p
+rEDI-16MHz.build.f_cpu=16000000L
+rEDI-16MHz.build.board=AVR_ROGUEROBOTICS_REDI
+rEDI-16MHz.build.core=arduino:arduino
+rEDI-16MHz.build.variant=ATmega644P-to-ATmega328PA-Arduino
+
+rEDI-16MHz.bootloader.tool=avrdude
+rEDI-16MHz.bootloader.low_fuses=0xf7
+rEDI-16MHz.bootloader.high_fuses=0xd4
+rEDI-16MHz.bootloader.extended_fuses=0xfd
+rEDI-16MHz.bootloader.file=rEDI/WiringBoot_rEDI.hex
+rEDI-16MHz.bootloader.unlock_bits=0x3f
+rEDI-16MHz.bootloader.lock_bits=0x2f
+
+
+# Rogue Robotics Rapscallion (Atmel ATmega1284P based)
+# Uses plain stk500 protocol ("arduino" for avrdude, for reset control)
+# http://roguerobotics.com/
+
+Rapscallion-16MHz.name=Rogue Robotics Rapscallion
+
+Rapscallion-16MHz.upload.tool=avrdude
+Rapscallion-16MHz.upload.protocol=arduino
+Rapscallion-16MHz.upload.maximum_size=130048
+Rapscallion-16MHz.upload.maximum_data_size=16384
+Rapscallion-16MHz.upload.speed=115200
+
+Rapscallion-16MHz.build.mcu=atmega1284p
+Rapscallion-16MHz.build.f_cpu=16000000L
+Rapscallion-16MHz.build.board=AVR_ROGUEROBOTICS_RAPSCALLION
+Rapscallion-16MHz.build.core=arduino:arduino
+Rapscallion-16MHz.build.variant=ATmega644P-to-ATmega328PA-Arduino
+
+Rapscallion-16MHz.bootloader.tool=avrdude
+Rapscallion-16MHz.bootloader.low_fuses=0xff
+Rapscallion-16MHz.bootloader.high_fuses=0xde
+Rapscallion-16MHz.bootloader.extended_fuses=0xfc
+Rapscallion-16MHz.bootloader.file=Rapscallion/Optiboot_Rapscallion.hex
+Rapscallion-16MHz.bootloader.unlock_bits=0x3f
+Rapscallion-16MHz.bootloader.lock_bits=0x0f
+
+
+# Rogue Robotics Rapscallion Lite (Atmel ATmega644PA based)
+# Uses plain stk500 protocol ("arduino" for avrdude, for reset control)
+# http://roguerobotics.com/
+
+Rapscallion-Lite-16MHz.name=Rogue Robotics Rapscallion Lite
+
+Rapscallion-Lite-16MHz.upload.tool=avrdude
+Rapscallion-Lite-16MHz.upload.protocol=arduino
+Rapscallion-Lite-16MHz.upload.maximum_size=65024
+Rapscallion-Lite-16MHz.upload.maximum_data_size=4096
+Rapscallion-Lite-16MHz.upload.speed=115200
+
+Rapscallion-Lite-16MHz.build.mcu=atmega644p
+Rapscallion-Lite-16MHz.build.f_cpu=16000000L
+Rapscallion-Lite-16MHz.build.board=AVR_ROGUEROBOTICS_RAPSCALLIONLITE
+Rapscallion-Lite-16MHz.build.core=arduino:arduino
+Rapscallion-Lite-16MHz.build.variant=ATmega644P-to-ATmega328PA-Arduino
+
+Rapscallion-Lite-16MHz.bootloader.tool=avrdude
+Rapscallion-Lite-16MHz.bootloader.low_fuses=0xff
+Rapscallion-Lite-16MHz.bootloader.high_fuses=0xde
+Rapscallion-Lite-16MHz.bootloader.extended_fuses=0xfc
+Rapscallion-Lite-16MHz.bootloader.file=Rapscallion/Optiboot_Rapscallion_Lite.hex
+Rapscallion-Lite-16MHz.bootloader.unlock_bits=0x3f
+Rapscallion-Lite-16MHz.bootloader.lock_bits=0x0f
+

@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "email": "info@roguerobotics.com",
+      "name": "Rogue Robotics",
+      "maintainer": "Rogue Robotics",
+      "help": {
+        "online": "http://home.roguerobotics.com/"
+      },
+      "websiteURL": "https://roguerobotics.com/",
+      "platforms": [
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "http://home.roguerobotics.com/"
+          },
+          "url": "https://github.com/roguerobotics/rogue-board-package/raw/master/download_package/roguerobotics.com-1.0.0.zip",
+          "checksum": "SHA-256:54F432D404D01BC0EA904A98D0C12628F75468B50EC6E473CF95A690513D5569",
+          "name": "Rogue Robotics Boards",
+          "version": "1.0.0",
+          "architecture": "avr",
+          "archiveFileName": "roguerobotics.com-1.0.0.zip",
+          "size": "10855",
+          "toolsDependencies": [
+            {
+              "packager" : "arduino",
+              "version" : "4.8.1-arduino5",
+              "name" : "avr-gcc"
+            },
+            {
+              "packager" : "arduino",
+              "version" : "6.0.1-arduino5",
+              "name" : "avrdude"
+            }
+          ],
+          "boards": [
+            {
+              "name": "LEDHead"
+            },
+            {
+              "name": "rEDI"
+            },
+            {
+              "name": "Rapscallion"
+            },
+            {
+              "name": "Rapscallion Lite"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
+
