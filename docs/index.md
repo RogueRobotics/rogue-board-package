@@ -17,7 +17,7 @@ Here are the steps:
 
 2. Locate the `Additional Boards Manager URLs` text box and add this URL:
 
-[https://home.roguerobotics.com/rogue-board-package/package_roguerobotics.com_index.json](https://home.roguerobotics.com/rogue-board-package/package_roguerobotics_index.json)
+[https://home.roguerobotics.com/rogue-board-package/package_roguerobotics_index.json](https://home.roguerobotics.com/rogue-board-package/package_roguerobotics_index.json)
 
 ![Additional Boards Manager URLs](images/AdditionalBoardsManagerURLs.png)
 
