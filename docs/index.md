@@ -21,6 +21,8 @@ Here are the steps:
 
 ![Additional Boards Manager URLs](images/AdditionalBoardsManagerURLs.png)
 
+![Additional Boards Manager URLs](images/AdditionalBoardsManagerURLs-filled.png)
+
 3. Next, open the Boards Manager:
 
 ![Tools -> Board -> Additional Boards Manager](images/ToolsBoardBoardsManager.png)
@@ -29,8 +31,6 @@ Here are the steps:
 4. Find and install the Rogue Robotics Boards package (Click on `Rogue Robotics Boards` to see the `Install` button):
 
 ![Boards Manager Rogue Install](images/BoardsManagerRogueInstall.png)
-
-![Boards Manager Installing](images/BoardsManagerInstalling.png)
 
 ![Boards Manager Installed](images/BoardsManagerInstalled.png)
 
