@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Rogue Robotics",
+      "name": "roguerobotics",
       "maintainer": "Rogue Robotics",
       "websiteURL": "https://roguerobotics.com/",
       "email": "info@roguerobotics.com",
@@ -24,12 +24,12 @@
           "toolsDependencies": [
             {
               "packager" : "arduino",
-              "version" : "4.8.1-arduino5",
+              "version" : "7.3.0-atmel3.6.1-arduino7",
               "name" : "avr-gcc"
             },
             {
               "packager" : "arduino",
-              "version" : "6.0.1-arduino5",
+              "version" : "6.3.0-arduino17",
               "name" : "avrdude"
             }
           ],
